@@ -75,7 +75,7 @@ const Snakegrid = () => {
 
   // Interval movement
   useEffect(() => {
-    const interval = setInterval(moveSnake, 98);
+    const interval = setInterval(moveSnake, 100);
     return () => clearInterval(interval);
   }, [snake, direction]);
 
@@ -156,7 +156,7 @@ const Snakegrid = () => {
                   snake.some(
                     (snakepart) => snakepart.x === x && snakepart.y === y
                   )
-                    ? "bg-[#fad8d1e6]"
+                    ? "bg-ant"
                     : ""
                 } ${food.x === x && food.y === y ? "bg-green-600" : ""}`}
               ></div>

@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .bg-ant {
+    background-image: url('/realbgant.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
