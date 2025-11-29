@@ -15,7 +15,7 @@ export default function Home() {
             <Image src={logo} alt="name" className="w-[90px] md:w-[150px]"  />
           </a>
           <h3 className="font-semibold text-[18px] md:text-xl md:font-bold">
-            Gensnake
+            GenAnt
           </h3>
         </div>
       </nav>
